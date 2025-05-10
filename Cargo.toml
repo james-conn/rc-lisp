@@ -1,0 +1,15 @@
+[package]
+name = "rc-lisp"
+version = "0.1.0"
+edition = "2021"
+authors = [ "James Connolly <me@j-conn.com>" ]
+license = "GPL-3.0-or-later"
+
+[dependencies.clap]
+version = "4.5"
+features = [ "derive" ]
+
+[dependencies]
+chumsky = "0.10"
+anyhow = "1"
+ariadne = "0.5"

@@ -1,0 +1,5 @@
+(let (apply) (lambda (f) (lambda (v) (f v)))
+	(let (square) (lambda (x) (* x x))
+		(print (apply square 5))
+	)
+)
